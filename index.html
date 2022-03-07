@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Code With Imole">
+    <meta name="creator" content="Aanu Adeniyi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" type="text/css" href="week3.css">
+</head>
+<body>
+    <h2>HTML form</h2>
+    <form action="">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="" value="" placeholder="firstname" required>
+        <br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="" value="" placeholder="lastname" required>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="@gmail.com" required>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <hr>
+    <h2>My feedback form</h2>
+    <form action="">
+        <ul>
+            <li>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="" value="" required>
+            </li>
+            <li>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="" value="" required>
+            </li>
+            <li>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="" value="" required>
+            </li>
+            <br>
+            <li><label for="emotions">Please check the emotions that apply to you:</label>
+                <ul>
+                    <li>
+                        <label for="angry">Angry</label>
+                        <input type="checkbox" id="angry" name="emotions" value="angry" checked>
+                    </li>
+                    <li>
+                        <label for="sad">Sad</label>
+                        <input type="checkbox" id="sad" name="emotions" value="sad">
+                    </li>
+                    <li>
+                        <label for="happy">Happy</label>
+                        <input type="checkbox" id="happy" name="emotions" value="happy">
+                    </li>
+                    <li>
+                        <label for="ambivalent">Ambivalent</label>
+                        <input type="checkbox" id="ambivalent" name="emotions" value="ambivalent">
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <ul>
+                    <li>
+                        <label for="verysatisfied">Very satisfied</label>
+                        <input type="radio" id="verysatisfied" name="satisfication" value="Very satisfied" checked>
+                    </li>
+                    <li>
+                        <label for="satisfied">Satisfied</label>
+                        <input type="radio" id="satisfied" name="satisfication" value="Satisfied">
+                    </li>
+                    <li>
+                        <label for="didntcare">Didn't Care</label>
+                        <input type="radio" id="didntcare" name="satisfication" value="Didn't care">
+                    </li>
+                    <li>
+                        <label for="dissatisfied">Dissatisfied</label>
+                        <input type="radio" id="dissatisfied" name="satisfication" value="Dissatisfied">
+                    </li>
+                    <li>
+                        <label for="verydiassastisfied">Very dissatisfied</label>
+                        <input type="radio" id="verydiassastisfied" name="satisfication" value="Very dissatisfied">
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <label for="comments">Further comments:</label>
+                <textarea name="Further comments" id="commentts" cols="20" rows="3"></textarea>
+            </li>
+            <br>
+            <li>
+                <label for="biophoto">Bio photo</label>
+                <input type="file" id="biophoto" name="file" accept="image/*">
+            </li>
+            <li>
+                <label for="location">Location visited</label>
+                <select name="" id="location">
+                    <option value="">Select location</option>
+                    <option value="">Lagos</option>
+                    <option value="">Abuja</option>
+                    <option value="">Kwara</option>
+                    <option value="">Ekiti</option>
+                </select>
+            </li>
+        </ul>
+    </form>
+    <ul>
+        <li>
+            <input type="submit" value="submit">
+        </li>
+    <ul>
+    
+</body>
+</html>
